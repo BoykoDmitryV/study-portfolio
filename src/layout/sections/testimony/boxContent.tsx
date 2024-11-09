@@ -34,6 +34,8 @@ export const BoxContent = () => {
 const BoxInformation = styled.div`
     max-width: 890px;
     display: flex;
+    height: 100%;
+    
     @media ${theme.media.tablet} {
         flex-direction: column;
     }
@@ -74,6 +76,8 @@ const BoxP = styled.p`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    //overflow: auto;
+    //height: 260px;
 `
 
 const BoxButton = styled.div`

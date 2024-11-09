@@ -23,10 +23,10 @@ export const Skills = () => {
 const StyledSkills = styled.section`
     background: ${theme.colors.secondaryBg};
     padding: 50px 0;
+    overflow: auto;
 `
 
 const IconsBox = styled.div`
-    overflow: auto;
     width: 1200px;
 
     & > *:not(:first-child) {

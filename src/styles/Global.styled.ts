@@ -11,6 +11,23 @@ export const GlobalStyle = createGlobalStyle`
         border: 1px solid red;
     }
 
+    &::-webkit-scrollbar {
+        width: 10px; /* Ширина скроллбара */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: ${theme.colors.secondaryBg}; /* Цвет фона трека */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: ${theme.colors.primaryBg}; /* Цвет ползунка */
+        border-radius: 10px; /* Скругление углов ползунка */
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: ${theme.colors.accent}; /* Цвет ползунка при наведении */
+    }
+    
     body {
         margin: 0;
         font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

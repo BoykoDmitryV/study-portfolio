@@ -51,7 +51,7 @@ const Field = styled.input`
 const FooterButton = styled.button`
     font-size: 30px;
     color: ${theme.colors.accent};
-    padding-right: 40px;
+    margin-right: 40px;
 `
 const BoxButton = styled.div`
     
